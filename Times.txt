@@ -1,0 +1,37 @@
+INPUT_2
+
+-scanf
+LetturaSum: 193.279 s
+DijkstraSum: 0.047 s
+LetturaSum: 85.364000000000019 s
+DijkstraSum: 0.021000000000000012 s
+ULetturaSum: 0.075143999999999142 s
+UDijkstraSum: 0.0071250000000004114 s
+
+-fgets with sscanf
+LetturaSum: 175.22500000000002 s
+DijkstraSum: 0.027000000000000017 s
+
+-fgets with atoi
+LetturaSum: 103.511 s
+DijkstraSum: 0.024000000000000014 s
+
+-fgets with myAtoi
+LetturaSum: 104.98499999999999 s
+DijkstraSum: 0.021000000000000005 s
+
+-fgets with myAtoiOptimized
+LetturaSum: 105.96199999999997 s
+DijkstraSum: 0.022000000000000013 s
+ULetturaSum: 0.067863999999999661 s
+UDijkstraSum: 0.0073280000000004557 s
+
+-getchar with myAtoiOptimized
+LetturaSum: 173.33199999999999 s
+DijkstraSum: 0.018000000000000009 s
+ULetturaSum: 0.054075000000000845 s
+UDijkstraSum: 0.0064500000000004025 s
+
+-getchar_unlocked with myAtoiOptimized
+ULetturaSum: 0.069217999999999461 s
+UDijkstraSum: 0.0065530000000003832 s
